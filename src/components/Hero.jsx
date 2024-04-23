@@ -52,26 +52,7 @@ function Hero() {
                             animate="visible"
                             transition={{ duration: 0.75, delay: 0.25 }}
                             >
-                            <ul class="flex flex-wrap items-center">
-                                <li>
-                                <Link
-                                    to="#"
-                                    class="bg-blue-500 border-solid border-2 border-blue-500 hover:border-blue-700 hover:bg-blue-700 transition ease-in-out delay-100
-                                    inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white  sm:px-10 lg:px-8 xl:px-10"
-                                >
-                                    Get Started
-                                </Link>
-                                </li>
-                                <li>
-                                <Link
-                                    to="#"
-                                    class="border-solid border-2 border-blue-500   text-black font-normal hover:bg-blue-500 hover:text-white transition ease-in-out delay-100
-                                    ml-6 inline-flex items-center justify-center rounded-lg py-4 px-6 text-centersm:px-10 lg:px-8 xl:px-10"
-                                    >
-                                    Take a look
-                                </Link>
-                                </li>
-                            </ul>
+                           
                         </motion.div>
 
                         

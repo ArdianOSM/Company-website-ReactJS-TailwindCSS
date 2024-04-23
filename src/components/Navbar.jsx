@@ -23,7 +23,25 @@ const Navbar = () => {
           <div className="flex">
             <ul className="sm:flex justify-center hidden">
               <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
-                <Link to="/">Home</Link>
+                <Link to="/">Company</Link>
+              </li>
+              <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/WaterConcept">Water Concept</Link>
+              </li>
+              <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/HousingSolution">Housing Solution</Link>
+              </li>
+              <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/BlueLine">Blue Line</Link>
+              </li>
+              <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/GreenLine">Green Line</Link>
+              </li>
+              <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/WhiteLine">White Line</Link>
+              </li>
+              <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/Download">Download</Link>
               </li>
               <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
                 <Link to="/about">About</Link>
@@ -38,18 +56,6 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
-            
-          </div>
-          <div className="flex ">
-            <button
-              type="button"
-              className="bg-blue-600 px-4 py-2 text-white hidden sm:block rounded-md mr-2 hover:bg-blue-500"
-            >
-              Get Started
-            </button>
-            <button onClick={() => setOpen(!open)} className="sm:hidden ">
-              <GiHamburgerMenu size={30} className="mt-2 mr-2 text-blue-500" />
-            </button>
           </div>
         </div>
 

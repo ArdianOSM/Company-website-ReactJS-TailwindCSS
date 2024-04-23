@@ -20,9 +20,7 @@ function Homepage() {
       <Hero />
       
       <div className="bg-gradient-to-tr from-blue-100">
-        
         <Features />
-        <Prices />
         <CallToAction />
         <Review />
         <Footer />
